@@ -52,10 +52,7 @@
 
 <p>&nbsp;</p>
 
-#### on va créer maintenant une nouvelle branche
-```git  branch develop```
-##### nouvelle branche créée à partir de la branche courante main
-##### dans la nouvelle branche on trouve le contenu et l'historique git de la branche de départ
+#### on envoie au Maintainer nos changements pour les Merger avec le dossier distant webforcetuto sur Github
 
 <p>&nbsp;</p>
 
