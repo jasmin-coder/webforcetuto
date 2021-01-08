@@ -52,10 +52,7 @@
 
 <p>&nbsp;</p>
 
-#### on va créer maintenant une nouvelle branche
-```git  branch develop```
-##### nouvelle branche créée à partir de la branche courante main
-##### dans la nouvelle branche on trouve le contenu et l'historique git de la branche de départ
+## on envoie au Maintainer nos changements pour les Merger avec le dossier distant webforcetuto sur Github
 
 <p>&nbsp;</p>
 
@@ -74,11 +71,7 @@
 
 <p>&nbsp;</p>
 
-#### avant d'envoyer les changements au repo distant, on doit créer ce nouveau dossier, on l'appelle "upstream" et on met dans sa valeur l'url repo github: https://github.com/wingstechno/webforcetuto.git
-```git  remote -v```
-```git  remote add upstream https://github.com/wingstechno/webforcetuto.git```
-
-<p>&nbsp;</p>
-
 #### maintenant on peut envoyer les changements au repo distant dans le dossier upstream
-```git  push upstream develop```
+```git  push origin develop```
+
+## on envoie au Maintainer nos changements pour les Merger avec le dossier distant webforcetuto sur Github
