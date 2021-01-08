@@ -7,12 +7,14 @@
 
 <p>&nbsp;</p>
 
-#### cloner le projet chez moi en local
+#### cloner le projet chez moi en local puis entrer au dossier
 ```git  clone FORKED-URL-ADDRESS```
 
 <p>&nbsp;</p>
 
-#### vérifier l'url remote en origin et upstream
+#### définir l'url upstream
+```git  remote -v```
+```git  remote add upstream https://github.com/wingstechno/webforcetuto.git```
 ```git  remote -v```
 
 <p>&nbsp;</p>
@@ -44,10 +46,9 @@
 <p>&nbsp;</p>
 
 #### le fichier est commité localement mais pas encore envoyé à github...
-#### envoyer le fichier au repo distant sur github (dossier upstream)
-#### upstream c'est le nom du dossier au repo distant - main c'est le nom de la branche
-```git  push upstream main```
-##### ça y'est!! on peut voir le fichier dans l'url de github
+#### envoyer le fichier à mon repo distant sur github (origin)
+```git push origin main```
+##### ça y'est!! on peut voir le fichier dans mon repo github (origin) mais pas au repo distant webforcetuto (upstream)
 
 <p>&nbsp;</p>
 
