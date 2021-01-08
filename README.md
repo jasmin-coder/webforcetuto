@@ -7,12 +7,14 @@
 
 <p>&nbsp;</p>
 
-#### cloner le projet chez moi en local
+#### cloner le projet chez moi en local puis entrer au dossier
 ```git  clone FORKED-URL-ADDRESS```
 
 <p>&nbsp;</p>
 
-#### vérifier l'url remote en origin et upstream
+#### définir l'url upstream
+```git  remote -v```
+```git  remote add upstream https://github.com/wingstechno/webforcetuto.git```
 ```git  remote -v```
 
 <p>&nbsp;</p>
